@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://media.licdn.com/dms/image/D4E0BAQETyObSEmZH-A/company-logo_200_200/0/1693956448491/jobsity_llc_logo?e=1723075200&v=beta&t=rGq4fY1cprFyIaSabim0_bgb-QLCbJUk6Es9dXuua1w"/>
+    <img src="https://git.jobsity.com/uploads/-/system/appearance/header_logo/1/descarga.png"/>
 </div>
 
 ## Description
@@ -75,15 +75,15 @@ You can find more examples in the tests folder.
 
 So for the above game for Jeff, the classic scoring would be written:
 
-![image](uploads/06b7490c460028f9594881a87232bf05/image.png)
+![image](https://git.jobsity.com/jobsity/ruby-challenge/-/wikis/uploads/06b7490c460028f9594881a87232bf05/image.png)
 
 Your program should print out a similar score to standard out, in the format: 
 
-![image](uploads/f77af4de8b5ac5e88f9ef3a45cc4c31c/image.png)
+![image](https://git.jobsity.com/jobsity/ruby-challenge/-/wikis/uploads/f77af4de8b5ac5e88f9ef3a45cc4c31c/image.png)
 
 Here is the same output with hidden whitespace revealed:
 
-![image](uploads/37f330643910125c14991cf136c0ab25/image.png)
+![image](https://git.jobsity.com/jobsity/ruby-challenge/-/wikis/uploads/37f330643910125c14991cf136c0ab25/image.png)
 
 Your program should be able to handle all possible cases of a game both including a game where all rolls are 0, all rolls are fouls (F) and a perfect game, where all rolls are strikes:
 
@@ -102,9 +102,9 @@ Carl 10
 Carl 10
 ```
 
-![perfect frames](uploads/ae3e9d11247c7d5fbd68f6e46bfaeb52/image.png)
+![perfect frames](https://git.jobsity.com/jobsity/ruby-challenge/-/wikis/uploads/ae3e9d11247c7d5fbd68f6e46bfaeb52/image.png)
 
-![perfect out](uploads/85f8fa8b66d1c46d6b0283d9208b9dcd/image.png)
+![perfect out](https://git.jobsity.com/jobsity/ruby-challenge/-/wikis/uploads/85f8fa8b66d1c46d6b0283d9208b9dcd/image.png)
 
 - Unit test: Tests should cover at least the non-trivial classes and methods
 
