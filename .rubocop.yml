@@ -1,8 +1,11 @@
-require: rubocop-rspec
+plugins:
+  - rubocop-rspec
 
 AllCops:
+  TargetRubyVersion: 3.4
   Exclude:
     - 'spec/fixtures/**/*'
+    - 'vendor/**/*'
   NewCops: enable
 
 Style/BlockComments:
@@ -13,8 +16,50 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 
 Metrics/BlockLength:
-  Exclude: 
+  Exclude:
     - spec/**/*
-    
+
+Metrics/MethodLength:
+  Max: 15
+  Exclude:
+    - spec/**/*
+
+Metrics/AbcSize:
+  Max: 20
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+# RSpec cops - relaxed for integration tests
 RSpec/RepeatedExampleGroupBody:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Max: 10
+
+RSpec/ExampleLength:
+  Max: 20
+
+RSpec/NestedGroups:
+  Max: 5
+
+RSpec/SpecFilePathFormat:
+  Enabled: false
+
+RSpec/ContextWording:
+  Prefixes:
+    - when
+    - with
+    - without
+    - for
+
+# Allow bang methods without ? suffix
+Naming/PredicateMethod:
+  Enabled: false
+
+# Allow duplicate branches when they make code clearer
+Lint/DuplicateBranch:
   Enabled: false
