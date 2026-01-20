@@ -1,0 +1,28 @@
+# Bundler
+/.bundle/
+vendor/bundle/
+vendor/
+
+# Gem files
+*.gem
+.ruby-version
+.ruby-gemset
+
+# RSpec
+.rspec_status
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Logs
+*.log
