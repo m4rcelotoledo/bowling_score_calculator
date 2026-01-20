@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ruby/Bundler
+vendor/
+.bundle/
+coverage/
+
+# Test fixtures (will mount at runtime if needed)
+# spec/
+
+# Tool versions (not needed in container)
+.tool-versions
+
+# Rubocop config (not needed for runtime)
+.rubocop.yml
