@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-ruby '2.7.3'
+ruby '3.4.6'
 
-gem 'rspec'
-gem 'rubocop', '~> 1.16', require: false
-gem 'rubocop-rspec', '~> 2.3.0', require: false
+gem 'rspec', '~> 3.13'
+gem 'rubocop', '~> 1.69', require: false
+gem 'rubocop-rspec', '~> 3.3', require: false
